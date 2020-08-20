@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Self blog",
+    "slug": "rn-self-posts",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/rn-icon.png",
+    "splash": {
+      "image": "./assets/rn-splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#242832"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.wachdev.self-blog-rn-app",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.wachdev.self_blog_rn_app",
+      "versionCode": 1,
+      "permissions": ["CAMERA", "WRITE_EXTERNAL_STORAGE"]
+    }
+  }
+}
